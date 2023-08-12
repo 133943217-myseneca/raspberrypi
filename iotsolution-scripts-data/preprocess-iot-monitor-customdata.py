@@ -175,12 +175,12 @@ def sendtransactiondata(maintopic,mainproducerid,VIPERPORT,index,preprocesstopic
 #	  // check for payload  'uid=subject.reference,filter:resourceType=MedicationAdministration,payload=payload.payload~\
 
      jsoncriteria='uid=id,filter:allrecords~\
-subtopics=name~\
-values=state_id~\
+subtopics=Device~\
+values=Volatge~\
 identifiers=id~\
-latitude=latitude~\
+datetime=Datetime~\
 msgid=id~\
-latlong=lat:long'     
+latlong=lat:long'    
 
 #     jsoncriteria='uid=entry.0.resource.id,filter:allrecords~\
 #subtopics=entry.1.resource.type.0.coding.0.code~\
