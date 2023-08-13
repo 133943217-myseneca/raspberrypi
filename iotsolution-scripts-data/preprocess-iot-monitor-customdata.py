@@ -174,12 +174,12 @@ def sendtransactiondata(maintopic,mainproducerid,VIPERPORT,index,preprocesstopic
  
 #	  // check for payload  'uid=subject.reference,filter:resourceType=MedicationAdministration,payload=payload.payload~\
 
-     jsoncriteria='uid=id,filter:allrecords~\
-subtopics=Device~\
-values=Volatge~\
-identifiers=id~\
-datetime=Datetime~\
-msgid=id~\
+     jsoncriteria='uid=main.id,filter:allrecords~\
+subtopics=main.Device~\
+values=main.Volatge~\
+identifiers=main.Serial~\
+datetime=main.Date_Updated~\
+msgid=main.Date_Created~\
 latlong=lat:long'    
 
 #     jsoncriteria='uid=entry.0.resource.id,filter:allrecords~\
@@ -191,7 +191,7 @@ latlong=lat:long'
 #latlong=entry.1.resource.position.latitude:entry.1.resource.position.longitude'     # use : to join multiple fields
 
 
-     tmlfilepath=''jsoncriteria
+     tmlfilepath=''
      
      usemysql=1
 
