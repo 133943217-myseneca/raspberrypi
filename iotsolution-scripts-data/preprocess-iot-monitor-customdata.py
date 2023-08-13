@@ -178,8 +178,8 @@ def sendtransactiondata(maintopic,mainproducerid,VIPERPORT,index,preprocesstopic
 subtopics=main.Device~\
 values=main.Volatge~\
 identifiers=main.Serial~\
-datetime=main.Date_Updated~\
-msgid=main.Date_Created~\
+datetime=value.Date_Updated~\
+msgid=value.Date_Created~\
 latlong=lat:long'    
 
 #     jsoncriteria='uid=entry.0.resource.id,filter:allrecords~\
