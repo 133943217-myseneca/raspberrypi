@@ -179,7 +179,7 @@ subtopics=main.Device~\
 values=main.Serial~\
 identifiers=main.Voltage~\
 datetime=value.Date_Updated~\
-msgid=value.Date_Created~\
+msgid=PersonData.PersonID~\
 latlong=lat:long'    
 
 #     jsoncriteria='uid=entry.0.resource.id,filter:allrecords~\
